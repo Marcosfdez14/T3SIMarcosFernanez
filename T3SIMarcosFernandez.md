@@ -21,7 +21,17 @@ cd /home
 ___
 
 > Para obtener un listado de ficheros/directorios que cuelgan de mi directorio de trabajo actual
+ ~~~
+ ls
+ ~~~
 
+> Salida del comando:
+~~~
+marcos
+~~~
+___
+
+> Realizo un listado recursivo de mi directorio de inicio
  ~~~
  ls -R
   ~~~
@@ -111,38 +121,14 @@ Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
 
 ./marcos/snap/snap-store/599:
 
-
-
 ./marcos/snap/snap-store/common:
-
-
 
 ./marcos/tres:
 
 compa  companeros  nombres
 
-
-
 ./marcos/uno:
 compa  companeros  grupo  nombres
-~~~
-___
-> Realizo un listado recursivo de mi directorio de inicio
- ~~~
- ll
- ~~~
-
-> Salida del comando:
-~~~
-total 12
-
-drwxr-xr-x  3 root   root   4096 nov  4 10:00 ./
-
-drwxr-xr-x 20 root   root   4096 nov  4 09:59 ../
-
-drwxr-x--- 25 marcos marcos 4096 nov 23 12:49 marcos/
-
-
 ~~~
 ___
 > Para pedir ayuda al comando passwd
